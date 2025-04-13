@@ -1,21 +1,40 @@
-# Run to Rise
+# 💼 CareerConnect - Job Portal Website
 
-[Live Site URL](https://enchanting-buttercream-05a923.netlify.app/)
+🌐 [Live Site](https://enchanting-buttercream-05a923.netlify.app/)
 
-## Features
+CareerConnect is a modern and responsive job portal web application designed to connect job seekers with employers. The platform offers an intuitive interface for browsing, posting, and applying to job listings.
 
-- **Interactive Carousel**: Our website features an interactive carousel showcasing various marathon images and information.
-- **Dynamic Tabs Panel**: Users can view information about different marathons using the dynamic tabs panel.
-- **Section One**: Detailed information about the marathons and registration links are provided in the first section.
-- **Section Two**: The second section includes the history of the marathons and other important information.
-- **Section Three**: The third section features experiences and feedback from marathon participants.
-- **Responsive Design**: The website is fully responsive, ensuring a seamless experience on both mobile and desktop devices.
-- **API Integration**: The website is integrated with an API to fetch and display marathon information.
+---
 
-## Technologies Used
+## ✨ Features
 
-- **React**: For front-end development.
-- **Tailwind CSS**: For styling and responsive design.
-- **Axios**: For making API calls.
-- **React Query**: For data fetching and caching.
-- **React Router**: For routing and navigation.
+- 🖼️ **Hero Banner**  
+  A visually appealing banner that introduces the site and highlights key benefits for users.
+
+- 📑 **Dynamic Tabs Panel**  
+  Easily explore different job categories (e.g., IT, Finance, Design) using tabs.
+
+- 📝 **Section One – Job Listings**  
+  Discover available jobs with detailed information, company names, and application links.
+
+- 🏢 **Section Two – About Employers**  
+  Learn more about featured companies and what they offer.
+
+- 🗣️ **Section Three – Testimonials**  
+  Read real experiences from users who found success through the platform.
+
+- 📱 **Responsive Design**  
+  Fully optimized for desktop, tablet, and mobile devices.
+
+- 🔌 **API Integration**  
+  Fetches live job and employer data through a REST API.
+
+---
+
+## 🛠️ Technologies Used
+
+- ⚛️ **React** – JavaScript library for building the user interface.
+- 🎨 **Tailwind CSS** – Utility-first CSS for responsive and modern styling.
+- 🌐 **Axios** – For API requests.
+- 🔄 **React Query** – For managing and caching data from APIs.
+- 🧭 **React Router** – For client-side navigation and routing.

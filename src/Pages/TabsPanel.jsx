@@ -53,7 +53,7 @@ const TabsPanel = ({ allMarathons }) => {
                       {m.description.substring(0, 15)}...
                     </p>
                     <Link to={`/details/${m._id}`}>
-                      <button className="bg-orange-500 mt-3 text-white px-4 py-2 rounded hover:bg-orange-600">
+                      <button className="bg-orange-500 w-full mt-3 text-white px-4 py-2 rounded hover:bg-orange-600">
                         See Details
                       </button>
                     </Link>

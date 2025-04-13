@@ -51,7 +51,7 @@ const MarathonCard = ({ marathon }) => {
             <Counter marathonStartDate={marathonStartDate} endDate={endDate} />
           </div> */}
           <Link to={`/details/${_id}`}>
-            <button className="bg-orange-500  text-white px-4 py-2 rounded hover:bg-orange-700">
+            <button className="bg-orange-500 w-full  text-white px-4 py-2 rounded hover:bg-orange-700">
               See Details
             </button>
           </Link>

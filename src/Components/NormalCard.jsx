@@ -28,14 +28,14 @@ const NormalCard = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 cursor-pointer gap-8 mt-8 xl:mt-16 md:grid-cols-2 lg:grid-cols-3">
       {upcomingMarathons.map((m) => (
         <div
           className="bg-white border space-y-3 font-semibold p-1 rounded-md "
           key={m.id}
         >
           <JackInTheBox>
-            <img src={m.image} alt="" />
+            <img className="rounded-sm" src={m.image} alt="" />
 
             <div className="p-1 space-y-3">
               <p className="text-white ">{m.title}</p>
@@ -53,6 +53,9 @@ const NormalCard = () => {
                 <p>End Date :</p>
                 <p>{m.endDate}</p>
               </div>
+              <button className="bg-orange-500 w-full mt-3 text-white px-4 py-2 rounded hover:bg-orange-600">
+                Enroll now
+              </button>
             </div>
           </JackInTheBox>
         </div>
