@@ -1,4 +1,4 @@
-# 💼 CareerConnect - Job Portal Website
+# 💼 Msab - Job Portal Website
 
 🌐 [Live Site](https://enchanting-buttercream-05a923.netlify.app/)
 
